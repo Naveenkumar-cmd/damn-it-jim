@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunder Mifflin Laughs 2.0 - Ultimate Office Fan Site</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; font-family: 'Roboto', sans-serif; }
+        h1, h2, h3 { font-family: 'Comic Neue', cursive; color: #2c3e50; }
+        .navbar { background-color: #34495e; }
+        .navbar-brand, .nav-link { color: white !important; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://static0.srcdn.com/wordpress/wp-content/uploads/2022/10/Two-side-by-side-images-of-Dwight-and-Jim-from-The-Office.jpg'); background-size: cover; background-position: center; color: white; padding: 180px 0; text-align: center; }
+        .section-title { text-align: center; margin: 80px 0 50px; }
+        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; }
+        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .card { transition: transform 0.3s, box-shadow 0.3s; border: none; border-radius: 12px; overflow: hidden; }
+        .card:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .meme-credit { font-size: 0.8rem; color: #6c757d; text-align: center; margin-top: 8px; }
+        .carousel-item img { border-radius: 12px; }
+        footer { background-color: #34495e; color: white; padding: 40px 0; margin-top: 100px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dunder Mifflin Laughs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jim-dwight">Jim & Dwight</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#michael">Michael Scott</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kevin">Kevin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#others">Others</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="display-2" data-aos="zoom-in">Dunder Mifflin Laugh Factory</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Legendary Jim & Dwight rivalry</p>
+            <p data-aos="fade-up" data-aos-delay="400"><strong>Fan-made • Public embeds & images only • Full credits below each item</strong></p>
+        </div>
+    </section>
+
+    <!-- Jim & Dwight (Biggest section with carousel + more videos) -->
+    <section id="jim-dwight" class="container my-5">
+        <h2 class="section-title display-4" data-aos="fade-down">Jim & Dwight — Eternal Frenemies</h2>
+        
+        <!-- Meme Carousel -->
+        <div class="mb-5" data-aos="fade-up">
+            <h3 class="text-center mb-4">Iconic Jim & Dwight</h3>
+            <div id="jimDwightCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/10/Two-side-by-side-images-of-Dwight-and-Jim-from-The-Office.jpg?w=1200&h=628&fit=crop" class="d-block w-100" alt="Jim Dwight meme">
+                        <div class="meme-credit">Source: ScreenRant</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.chzbgr.com/thumb800/23009029/h2FCB3C3D/and-tv-sitcom-comedy-comedy-central-michael-scott-dwight-schrute-jim-halpert-pam-beasly-funny-memes" class="d-block w-100" alt="Jim Dwight meme">
+                        <div class="meme-credit">Source: Cheezburger/Memebase</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://nofilmschool.com/media-library/27-times-jim-and-dwight-were-perfect-frenemies-on-2-20314-1442959086-6-dblbig.jpg?id=34066152&width=980" class="d-block w-100" alt="Jim Dwight meme">
+                        <div class="meme-credit">Source: No Film School</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.redd.it/f0kxeqp99tnb1.jpg" class="d-block w-100" alt="Love story meme">
+                        <div class="meme-credit">Source: Reddit r/DunderMifflin</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2020/01/pjimage-4.jpg?w=1600&h=900&fit=crop" class="d-block w-100" alt="Jim meme">
+                        <div class="meme-credit">Source: ScreenRant</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.chzbgr.com/thumb800/8638981/hC19786EA/14-idiotic-dwight-schrute-memes-you-can-save-for-a-rainy-day" class="d-block w-100" alt="Dwight meme">
+                        <div class="meme-credit">Source: Cheezburger</div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#jimDwightCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#jimDwightCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+            </div>
+        </div>
+
+        <!-- Videos & More Memes -->
+        <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/Xnk4seEHmgw" title="12 Min Pranks" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Jim Pranking Dwight for 12 Minutes Straight</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/abWhkYxJi0w" title="Frenemies" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Jim & Dwight Frenemies for 13 Minutes</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/gG2rw4OftRI" title="Underrated Pranks" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>ULTIMATE Underrated Pranks</p><p class="meme-credit">Source: The Office YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/EXchr8GaUOc" title="Season 3 Pranks" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Best Pranks Season 3</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <!-- Additional Memes -->
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2020/03/The-Office-10-Memes-Jim-Halpert-Fans-Will-Love-featured-image.jpg" class="card-img-top" alt="Jim meme">
+                    <div class="card-body"><p class="meme-credit">Source: ScreenRant</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://i.chzbgr.com/thumb1200/39807493/hCE4B5BF0/21-the-office-memes-for-the-offices-20th-anniversary" class="card-img-top" alt="Jim meme">
+                    <div class="card-body"><p class="meme-credit">Source: Cheezburger</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-06/29/15/enhanced/7be76ca53de9/original-1974-1688054081-2.jpg" class="card-img-top" alt="No God Please No">
+                    <div class="card-body"><p class="meme-credit">Source: BuzzFeed</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Michael Scott -->
+    <section id="michael" class="container my-5 bg-light py-5 rounded">
+        <h2 class="section-title display-4" data-aos="fade-down">Michael Scott — Regional Manager Legends</h2>
+        <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-up">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/IBJJrZ5LAVQ" title="Best of Michael" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Best of Michael Scott</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/He3cDVCC4ac" title="Respect Michael" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Moments That Make Me Respect Michael</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/T1pNqRmQx00" title="That's What She Said" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Best of That's What She Said</p><p class="meme-credit">Source: The Office YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://i.pinimg.com/736x/e5/05/69/e5056928d55670777e305c2e5b8f2300.jpg" class="card-img-top" alt="Michael flaws">
+                    <div class="card-body"><p class="meme-credit">Source: Pinterest</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2020/03/michael-scott-the-office-memes.jpg" class="card-img-top" alt="Michael meme">
+                    <div class="card-body"><p class="meme-credit">Source: ScreenRant</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://i.ytimg.com/vi/35DqyyPy94A/maxresdefault.jpg" class="card-img-top" alt="This is the worst">
+                    <div class="card-body"><p class="meme-credit">Source: YouTube/The Office</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kevin -->
+    <section id="kevin" class="container my-5">
+        <h2 class="section-title display-4" data-aos="fade-down">Kevin — Chili Master & Icon</h2>
+        <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/WcYG-5b7448" title="Famous Chili" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Kevin's Famous Chili</p><p class="meme-credit">Source: The Office US YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/CziLDGyo8W8" title="Chili Drop" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Kevin Drops the Chili</p><p class="meme-credit">Source: The Office YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="card shadow">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/WN-K0mhy3Ao" title="Best Moments" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body"><p>Kevin Malone's Best Moments</p><p class="meme-credit">Source: The Office YouTube</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://helios-i.mashable.com/imagery/articles/06lEfBX2AdLzxNwT2rg2fCr/hero-image.fill.size_1248x702.v1638979554.png" class="card-img-top" alt="Chili spill">
+                    <div class="card-body"><p class="meme-credit">Source: Mashable</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2022-02/office-kevin-chili-mc-220224-04-d63153.jpg" class="card-img-top" alt="Chili spill">
+                    <div class="card-body"><p class="meme-credit">Source: TODAY/NBC</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://brobible.com/wp-content/uploads/2022/02/kevin-malone-famous-chili-recipe.jpeg" class="card-img-top" alt="Chili recipe meme">
+                    <div class="card-body"><p class="meme-credit">Source: BroBible</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Others (Expanded) -->
+    <section id="others" class="container my-5 bg-light py-5 rounded">
+        <h2 class="section-title display-4" data-aos="fade-down">The Rest of the Gang — Creed, Pam, Stanley & More</h2>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="flip-left">
+                <div class="card shadow">
+                    <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2018/06/25-Hilarious-The-Office-Memes-That-Show-It-Makes-No-Sense-13.jpg?q=50&fit=crop&w=825&dpr=1.5" class="card-img-top" alt="Friends meme">
+                    <div class="card-body"><p class="meme-credit">Source: TheGamer</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-up">
+                <div class="card shadow">
+                    <img src="https://imgix.ranker.com/list_img_v2/2022/2882022/original/2882022?w=817&h=427&fm=jpg&q=50&fit=crop" class="card-img-top" alt="Creed meme">
+                    <div class="card-body"><p class="meme-credit">Source: Ranker</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-right">
+                <div class="card shadow">
+                    <img src="https://i.redd.it/rujj1auo4vk61.jpg" class="card-img-top" alt="Pam & Stanley">
+                    <div class="card-body"><p class="meme-credit">Source: Reddit r/DunderMifflin</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/08/Kevin-Malone-Meme-Kelly-Ryan-The-Office.jpg?w=1600&h=1200&fit=crop" class="card-img-top" alt="Supporting cast meme">
+                    <div class="card-body"><p class="meme-credit">Source: ScreenRant</p></div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow">
+                    <img src="https://i.chzbgr.com/thumb800/35979269/h92617903/stanley-comedy-comedy-central-funny-funny-memes-tv-shows-tv-show-sitcom-comfort-wholesome-memes" class="card-img-top" alt="Stanley meme">
+                    <div class="card-body"><p class="meme-credit">Source: Cheezburger</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p><strong>Fan-made tribute</strong> — All videos embedded from public/official YouTube. Images from public sources with credits. No copyright infringement intended. The Office © NBC Universal.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
